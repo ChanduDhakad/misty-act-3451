@@ -1,0 +1,171 @@
+ 
+
+#page_navbar{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+  
+    
+}
+#cat{
+    border: 2px solid rgb(243, 57, 147);
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(112, 114, 116);
+    border-radius: 7px;
+    text-align: center;
+    padding: 20px 15px 15px 20px;
+}
+#cat:hover{
+    background-color:  rgb(243, 57, 147);
+    color: white;
+    cursor: pointer;
+}
+.make{
+    text-align: center;
+    
+    font-weight: bold;
+   
+    text-size-adjust: 10px;
+    
+    
+}
+  
+
+/* #top_img{
+    height: 50px;
+    width: 20%;
+    margin-left: 35rem;;
+     ;
+} */
+#top{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 32rem;
+    height: 50px;
+     padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#mid{
+    width: 80%;
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    
+     
+     
+}
+#mid_2>h3{
+    margin-top: 20rem;
+    margin-left: 35px;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(112, 114, 116);
+    text-align: justify;
+}
+#mid_2>p{
+    line-height: 35px;
+    margin-left: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: justify;
+    word-break:keep-all;
+}
+#ran{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.bride{
+    height:  400px;
+    width: 350px
+}
+.countribute{
+    color: rgb(90, 93, 96);
+    font-size: 20px;
+    font-weight: bold;
+     
+}
+
+#second_mid{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+   margin: auto;
+  gap: 20px;
+   
+}
+#second_mid>div{
+    margin-top: -65rem;
+}
+#second_mid>div>h3{
+    font-size: 25px;
+    font-weight: bold;
+    color:   rgb(112, 114, 116);
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;
+    margin-top: 20rem;
+    
+}
+#second_mid>div>h3+p{
+    font-size: 20px;
+    font-weight: bold;
+    color:   rgb(31, 31, 31);
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;
+    word-break:keep-all;
+    
+}
+#mehindi{
+    height: 50rem;
+    margin-left: 15px;
+}
+
+#bottom_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+     
+}
+.bride1{
+    height:  400px;
+    width: 350px;
+   
+}
+.countribute1{
+    color: rgb(90, 93, 96);
+    font-size: 20px;
+    font-weight: bold;
+     
+}
+#below{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+
+}
+#below>p{
+    color: rgb(243, 57, 147);
+    font-size: 16px;
+    font-weight: bold;
+}
+#below >.bl{
+    color: black;
+    font-weight: bold;
+}
