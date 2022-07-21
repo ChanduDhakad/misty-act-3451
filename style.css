@@ -44,11 +44,112 @@ body {
   color: #d53791;
   background-color: #ebebeb;
 }
-#make {
+.make {
   display: flex;
   margin-left: 50px;
 }
 
-#makeup {
+.makeup {
   text-align: center;
+}
+.flex {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 25px;
+  padding: 0px 30px 0px 24px;
+}
+.img {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 35px 0px 24px;
+}
+.hair {
+  background-color: rgb(254, 92, 116);
+  padding: 10px 0px 0px 70px;
+  height: 950px;
+}
+.pink {
+  display: flex;
+}
+.textpink {
+  background-color: white;
+  margin: 60px 0px 0px -40px;
+  border-radius: 18px;
+  height: 300px;
+  width: 600px;
+  text-align: inherit;
+  padding: 30px 0px 0px 30px;
+}
+.hair > div > h1 {
+  text-align: center;
+  color: white;
+  margin: 40px 0px 50px 0px;
+}
+.hairimg {
+  display: flex;
+}
+.texthair {
+  background-color: white;
+  margin: 71px 20px 0px -94px;
+  border-radius: 18px;
+  height: 100px;
+  width: 350px;
+  text-align: inherit;
+  padding: 17px 40px 35px 8px;
+}
+.imghair {
+  padding: 10px 0px 0px 70px;
+  margin: 30px 20px 0px 0px;
+}
+.imghair img {
+  margin: 0px 0px 0px -70px;
+}
+.press {
+  display: flex;
+}
+.box {
+  background-color: white;
+  height: 175px;
+  width: 400px;
+  margin: 0px 0px 0px 90px;
+  text-align: center;
+}
+
+.mainpress {
+  background-color: rgb(254, 92, 116);
+  height: 450px;
+}
+.box h2 {
+  margin-top: 30px;
+}
+.mainpress h1 {
+  text-align: center;
+  color: white;
+  margin: 0px 0px 80px 0px;
+  padding: 60px 0px 0px 0px;
+}
+.box img {
+  margin-top: 5px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  width: 330px;
+  row-gap: 200px;
+  column-gap: 500px;
+}
+.grid-container div {
+  border: 2px solid red;
+  height: 113px;
+  width: 700px;
+}
+.med {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.grid-item {
+  display: flex;
+}
+.grid-item img {
+  width: 110px;
+  height: 110px;
 }
