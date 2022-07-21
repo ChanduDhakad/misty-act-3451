@@ -1,0 +1,202 @@
+
+        
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    #navbar {
+        /* border: 1px solid red; */
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        margin-top: -1px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: fixed;
+        background-color:white;
+        width: 100%;
+    /* top: 20px; */
+    top: 0px;
+    }
+
+    #logo-img {
+        /* border: 1px solid saddlebrown; */
+
+        width: 19%;
+        cursor: pointer;
+
+    }
+
+    #blew-navar-dispaly {
+        /* border: 1px solid saddlebrown; */
+        width: 85%;
+        margin: auto;
+        height: 600px;
+    }
+
+    a {
+        color: #fe5c75;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    #heading {
+        /* border: 1px solid red; */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        color: rgb(73, 69, 69);
+        margin-top: 70px;
+    
+    }
+
+    #heading u {
+        /* border: 1px solid red; */
+        padding-bottom: px;
+        text-decoration: #fe5c75 2px underline;
+        text-underline-offset: 6px;
+
+    }
+
+    #health-category,#new-category {
+        width: 87%;
+        margin-top: 40px;
+        /* border: 1px solid rgb(21, 255, 0); */
+        display: grid;
+        grid-gap: 23px 40px;
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+    #new-category{
+      
+        grid-template-columns: repeat(7, 1fr);
+        font-size: 24px;
+
+    }
+
+    #health-category>div,#new-category>div {
+        font-size:18px;
+        cursor: pointer;
+        border: 2px solid #fe5c75;
+        border-radius: 10px;
+        height: 60px;
+        width: 112%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 32px
+
+        
+    }
+    #health-category>div:hover,#new-category>div:hover {
+         background-color: #fe5c75;
+       
+    }
+
+    #health-category>div:nth-child(1) {
+        /* border: 1px solid #5cfeb2; */
+        height: 60px;
+        width: 135%;
+        margin-left: -6px;
+        
+
+
+    }
+
+    #health-category>div:nth-child(7) {
+        /* border: 2px solid  #fe5c75; */
+        height: 60px;
+        width: 135%;
+        margin-left: -6px;
+
+    }
+
+    #feature-box,  #feature-box2{
+        /* border: 1px solid red; */
+        display: flex;
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        /* height: 400px; */
+        background-color: #f9f9f9;
+    }
+
+    #feature-box img,#feature-box2 img {
+        /* border: 1px solid red; */
+        /* height: 400px; */
+        cursor: pointer;
+
+    }
+   img:hover {
+    filter: brightness(110%);
+   }
+       
+
+    #feature-box-para, #feature-box2-para {
+        /* border: 1px solid rgb(4, 255, 0); */
+        width: 40%;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 160px; */
+        /* display: flex;  */
+        margin: auto;
+        margin-top: 240px;
+
+    }
+
+    #feature-box-para p, #feature-box2 p {
+     
+        /* border: 1px solid red; */
+       font-size: 23px;
+       margin-top: 50px;
+       justify-content: center;
+       text-align: center;
+    }
+    #feature-box-para h1, #feature-box2 h1{
+     
+     /* border: 1px solid rgb(34, 255, 0); */
+    font-size: 28px;
+ 
+ }
+ #feature-box-para p+p, #feature-box2-para p+p {
+     
+     /* border: 1px solid red; */
+    font-size: 16px;
+    margin-top: 237px;
+    /* justify-content: center; */
+    text-align:start;
+ }
+ #middle-section,#buttom-section{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin-top: 40px;
+    text-align: center;
+    /* width: 80%; */
+ }
+ #middle-section>div,#buttom-section>div{
+    /* border: 1px solid rgb(25, 139, 19); */
+    cursor: pointer;
+  
+ }
+ #middle-section img,#buttom-section img{
+    /* border: 1px solid rgb(0, 38, 255); */
+    margin-bottom: 20px;
+    width: 100%;
+ }
+ #middle-section h2+h3,#buttom-section h2+h3{
+    /* border: 1px solid rgb(255, 0, 81); */
+    margin-top: 20;
+    font-size: 14px;
+    text-align: start;
+ }
+ #link-home-page{
+    /* border: 5px solid darkblue; */
+    margin-top: 50px;
+ }
