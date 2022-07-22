@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/34483ec9ab.js" crossorigin="anonymous"></script>
+    <style>
+        .disp_result {
+            margin: auto;
+            width: 80%;
+        }
+
+        .gsc-cursor {
+            margin-top: 20px !important;
+        }
+
+        .gsc-cursor-page,
+        .gsc-cursor-current-page {
+            text-decoration: none !important;
+            border: 3px solid !important;
+            border-color: #a9da92 !important;
+            background-color: #ffffff;
+            color: #a9da92 !important;
+            padding: 10px 15px !important;
+            border-radius: 50% !important;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .gsc-cursor-current-page {
+            background-color: #4caf50 !important;
+            color: white !important;
+        }
+
+        .gcsc-more-maybe-branding-root {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: end;
+        }
+    </style>
+    <link rel="stylesheet" href="./InnersiteNav/components/innerNav.css" />
+    <link rel="stylesheet" href="./HomepageNav/Components/footer.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="disp_result">
+        <div class="gcse-searchresults-only"></div>
+    </div>
+    <div id="footer"></div>
+    <script async src="https://cse.google.com/cse.js?cx=7afbe2625503aa251"></script>
+</body>
+
+</html>
+<script src="./InnersiteNav/components/innerNav.js"></script>
+<script type="module">
+    import {innernav, funcDispBlock,funcDispNone} from "./InnersiteNav/components/navbarComp.js";
+    import foo from "./HomepageNav/Components/footer.js"
+
+    let nav = document.getElementById("header");
+    nav.innerHTML = innernav();
+    let footer=document.getElementById('footer');
+    footer.innerHTML=foo();
+
+    let hamburger = document.getElementById("hamburger");
+    let timesClicked = 0;
+
+    hamburger.addEventListener("click", function () {
+        timesClicked++;
+        if (timesClicked % 2 == 0) {
+            funcDispBlock();
+        } else {
+            funcDispNone();
+        }
+    });
+</script>

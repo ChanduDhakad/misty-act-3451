@@ -4,12 +4,12 @@
   margin: 0;
 }
 #header {
-  /* border: 1px solid; */
   height: 100px;
   width: 100%;
   margin: auto;
   position: fixed;
-  top: 0%;
+  top: 0px;
+  z-index: 1;
   background-color: white;
 }
 #search_box {
@@ -30,7 +30,8 @@
 
 #search_box > div:nth-child(1) img {
   height: 100%;
-  width: 80%;
+  /* transform: none;
+  transition: 2s; */
 }
 
 #search_box > div:nth-child(2) {
@@ -66,14 +67,15 @@
 }
 #categories {
   margin: auto;
-  width: 100%;
+  width: 90%;
   display: flex;
   font-size: 17px;
-  line-height: 22px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  font-family: "Poppins", sans-serif;
-  margin: 0px 75px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  margin-left:50px;
+  margin-top: -5px;
+  justify-content: center;
+  align-items: center;
 }
 #categories > div {
   padding: 0px 15px;
@@ -94,7 +96,6 @@
   background-color: white;
   visibility: hidden;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* transition: width 2s, height 2s;; */
 }
 #box2,
 #box3,
