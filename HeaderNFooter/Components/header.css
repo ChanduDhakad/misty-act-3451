@@ -1,0 +1,176 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+#header {
+  /* border: 1px solid; */
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  top: 0%;
+  background-color: white;
+}
+#search_box {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 5px auto 5px auto;
+  width: 100%;
+}
+
+#search_box > div:nth-child(1) {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+#search_box > div:nth-child(1) img {
+  height: 100%;
+  width: 80%;
+}
+
+#search_box > div:nth-child(2) {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+#search_box > div:nth-child(2) input {
+  width: 50%;
+  height: 21px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  outline: 0;
+  letter-spacing: 0.5px;
+  line-height: 1.42857143;
+  border-radius: 20px;
+  font-size: 14px;
+  color: black;
+}
+
+#search_box > div:nth-child(2) input::placeholder {
+  color: #a8afb9;
+  font-weight: 300;
+}
+
+#search_box > div:nth-child(2) i {
+  position: absolute;
+  padding: 15px 10px;
+  right: 0;
+  margin-right: 115px;
+}
+#categories {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 75px;
+}
+#categories > div {
+  padding: 0px 15px;
+  border-right: 2px solid #fe5c75;
+}
+#categories > div:last-child {
+  border-right: 0;
+}
+#categories > div:hover {
+  color: #fe5c75;
+  cursor: pointer;
+  transition: 2s;
+}
+#box1 {
+  height: 350px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  visibility: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* transition: width 2s, height 2s;; */
+}
+#box2,
+#box3,
+#box4,
+#box5,
+#box6 {
+  height: 350px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  visibility: hidden;
+  margin-top: -350px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#box7 {
+  height: 160px;
+  width: 150px;
+  margin-left: 1100px;
+  background-color: white;
+  padding: 0px 10px;
+  /* font-weight: bolder; */
+  color: rgb(86, 83, 83);
+  font-size: 13px;
+  line-height: 30px;
+  visibility: hidden;
+  margin-top: -350px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#box7 > div:hover {
+  color: #fe5c75;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding: 15px;
+  padding-top: 30px;
+}
+.list > div {
+  padding: 20px;
+}
+.list img {
+  height: 160px;
+  width: 140px;
+}
+.list img:hover {
+  /* cursor: pointer; */
+  opacity: 0.5;
+  transition: 2s;
+}
+.list p a {
+  font-size: 13px;
+  color: #a3a2a2;
+  font-weight: 300;
+  text-decoration: none;
+}
+.list p:hover {
+  cursor: pointer;
+}
+.findbtn {
+  width: 99%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -30px;
+  padding-right: 10px;
+}
+.findbtn button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid;
+  color: #fe5c75;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Navbar header ends here */
