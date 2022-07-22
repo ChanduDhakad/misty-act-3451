@@ -1,7 +1,7 @@
 
 document.getElementById("img1").addEventListener("click",handle);
 function handle(){
-    window.location.href="./makeupinner.html";
+    window.location.href="./facemakeup.html";
 }
 const arr = [
     {
