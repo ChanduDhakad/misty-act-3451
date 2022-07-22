@@ -1,3 +1,8 @@
+
+document.getElementById("img1").addEventListener("click",handle);
+function handle(){
+    window.location.href="./makeupinner.html";
+}
 const arr = [
     {
         image : "https://cdn2.stylecraze.com/wp-content/uploads/2014/09/2073-Top-5-Naturals-Salon-Bridal-Makeup-Packages-is.jpg.webp",

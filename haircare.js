@@ -1,3 +1,10 @@
+
+document.getElementById("img2").addEventListener("click",handle2);
+function handle2(){
+    window.location.href="./hairinner.html";
+}
+
+
 const arr = [
     {
         image : "https://cdn2.stylecraze.com/wp-content/uploads/2014/09/Best-Hair-Colors-For-Blue-Eyed-Woman-1.jpg.webp",
