@@ -1,4 +1,38 @@
 // Create Obj Of Array For health category paragraph
+//navbar append function
+import foo from "./HeaderNFooter/Components/header.js"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById("header").innerHTML=foo()
+
+
+
 let health_category_para = [
     ["Health Conditions And Diseases"],
     ["Ayurveda "],
