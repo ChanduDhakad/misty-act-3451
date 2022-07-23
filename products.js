@@ -409,7 +409,7 @@ redirectfun("cate2", "haircare.html");
 redirectfun("cate3", "skincare.html");
 redirectfun("cate4", "hairstyles.html");
 redirectfun("cate5", "health.html");
-redirectfun("cate6", "news.html");
+redirectfun("cate6", "Celebrity-news.html");
 redirectfun("cate7", "aboutus.html");
 redirectfun("cate8", "products.html");
 redirectfun("cate9", "tools.html");
