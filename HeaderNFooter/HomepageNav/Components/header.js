@@ -2,7 +2,7 @@ function header() {
   return `
     <div id="search_box">
         <div>
-        <a href="index.html"><img src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png" alt="logo"></a>
+        <a href="index.html"><img id="logo" src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png" alt="logo"></a>
         </div>
         <div>
             <input type="text" placeholder="Search" id="search_inp">

@@ -61,3 +61,41 @@ redirectfun("cate3", "skincare.html");
 redirectfun("cate4", "hairstyles.html");
 redirectfun("cate5", "health.html");
 redirectfun("cate6", "news.html");
+
+
+let getSearchData = (query) => {
+    console.log(query);
+      let  url=`./search.html?q=${query}`;
+      console.log(url);
+      window.location.href = url;
+  };
+
+  let search = (e) => {
+    let query = document.querySelector("#search_inp").value;
+
+    if (e.key === "Enter") {
+        getSearchData(query);
+    }
+  };
+
+  let input = document.querySelector("#search_inp");
+  input.addEventListener("keydown", search);
+
+
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    // document.getElementById("header").style.padding = "30px 10px";
+    document.getElementById("logo").style.width = "80%";
+    // document.getElementById("categories").style.marginLeft="70px";
+    document.getElementById("logo").style.marginLeft="25px";
+    document.getElementById("logo").style.marginTop="6px";
+  } else {
+    // document.getElementById("header").style.padding = "80px 10px";
+    document.getElementById("logo").style.width = "auto";
+    // document.getElementById("categories").style.marginLeft="75px";
+    document.getElementById("logo").style.marginLeft="-20px";
+    document.getElementById("logo").style.marginTop="5px";
+  }
+}
