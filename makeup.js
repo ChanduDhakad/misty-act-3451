@@ -1,4 +1,9 @@
 
+
+import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+
+document.getElementById("footer").innerHTML=foo();
+
 document.getElementById("img1").addEventListener("click",handle);
 function handle(){
     window.location.href="./facemakeup.html";
