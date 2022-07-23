@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+#mainsec {
+    width: 50%;
+    height: auto;
+    /* border: 1px solid olivedrab; */
+    margin: auto;
+    /* font-family: sans-serif; */
+    letter-spacing: 2px;
+}
+
+#heading {
+    font-size: 16px;
+    /* line-height: 1.5; */
+    color: #424242;
+    margin: 5px 0;
+}
+
+#heading>p {
+    font-size: larger;
+    margin: 0 0 10px;
+    line-height: 1.7;
+    color: #424242;
+    width: 100%;
+}
+
+#calculate {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 10px 10px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 30px;
+    color: #424242;
+}
+
+button {
+    display: block;
+    background-color: #fdc70d;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 18px;
+    color: black;
+}
+
+:placeholder-shown {
+    box-sizing: border-box;
+    text-align: end;
+    width: 90%;
+    border: none;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.head {
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.Answer {
+    margin: 0 0 10px;
+    line-height: 1.7;
+    color: #424242;
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.link {
+    color: blue;
+}
+
+#bk {
+    box-sizing: border-box;
+    background-color: rgb(223, 222, 222);
+    width: 100%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-top: 10px
+}
+
+.Q {
+    color: #008aff;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.A {
+    color: #fda338;
+    font-weight: bolder;
+    margin-right: 10px;
+    line-height: 2;
+}
+
+.ques {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(36, 32, 32);
+}
+
+.answer {
+    font-size: 18px;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+#head1 {
+    color: #fe7f7d;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ol {
+    line-height: 27px;
+}
+
+.link {
+    cursor: pointer;
+}
+
+#head1 {
+    cursor: pointer;
+}
