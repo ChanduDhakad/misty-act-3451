@@ -1,5 +1,5 @@
 let innernav = () => {
-    return `
+  return `
     <div class="container">
       <div id="toggle">
         <div id="hamburger"><i class="fa-solid fa-2x fa-bars"></i></div>
@@ -21,15 +21,15 @@ let innernav = () => {
             <div id="cate4">HAIRSTYLES</div>
             <div id="cate5">HEALTH & WELLNESS</div>
             <div id="cate6">NEWS</div>
-            <div>TOOLS</div>
-            <div>PRODUCTS</div>
+            <div id="cate9">TOOLS</div>
+            <div id="cate8">PRODUCTS</div>
             <div id="cate7">ABOUT US</div>
           </div>
         </div>
       </div>
     </div>
-    `
-}
+    `;
+};
 
 let funcDispBlock = () => {
   document.getElementById("categories").style.display = "flex";
@@ -40,4 +40,4 @@ let funcDispNone = () => {
   document.getElementById("img").style.display = "block";
 };
 
-export {innernav, funcDispBlock,funcDispNone};
+export { innernav, funcDispBlock, funcDispNone };
