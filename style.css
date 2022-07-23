@@ -1,6 +1,12 @@
 body {
   margin: 0px;
 }
+body img {
+  border-radius: 13px;
+}
+img:hover {
+  opacity: 0.5;
+}
 
 #upper {
   display: flex;
@@ -12,13 +18,16 @@ body {
 }
 #Social_logo {
   display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .boxlogo {
-  margin: 0px 0px 0px 0px;
-
-  height: 80px;
-  width: 200px;
-  padding: 0px 6px 0px 40px;
+  display: grid;
+  height: 100px;
+  width: 240px;
+}
+.boxlogo h2 {
+  padding: 15px 0px 0px 0px;
 }
 #fb {
   background-color: #3b5999;
@@ -143,7 +152,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   font-family: Poppins, Poppins-Hindi, sans-serif;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 .imghair {
   padding: 10px 0px 0px 70px;
@@ -182,25 +191,79 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 100px 100px 100px;
+  column-gap: 350px;
+  row-gap: 47px;
   /* width: 330px; */
   /* row-gap: 200px;
   column-gap: 500px; */
 }
 .grid-container div {
-  border: 2px solid red;
-  height: 113px;
-  width: 700px;
+  /* border: 2px solid red; */
+  width: max-content;
+  margin-left: 15px;
+  /* height: 113px;
+  width: 700px; */
 }
 .med {
   margin-top: 200px;
   margin-left: 100px;
 }
-.grid-item {
-  display: flex;
+.med h1 {
+  font-weight: 500;
+  line-height: 51px;
+  clear: both;
+  position: relative;
+  color: #212121;
+  text-align: center;
+  margin: 23px 0;
+  font-size: 35px;
+  padding: 0px 0px 36px 0px;
 }
+.med h4 {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.med button {
+  border-radius: 4px;
+  min-width: 250px px;
+  padding: 16px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background: #fe5c75;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+/* .grid-item {
+  display: flex;
+} */
 .grid-item img {
   width: 110px;
   height: 110px;
+}
+.grid-item {
+  display: flex;
+}
+.grid-item h2 {
+  color: #fe5c75;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 600;
+  letter-spacing: initial;
+}
+.grid-item p {
+  color: #222121;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
 }
 #test {
   background-color: rgb(254, 92, 116);
@@ -235,3 +298,7 @@ body {
   text-align: center;
   color: rgb(254, 92, 116);
 }
+button {
+  cursor: pointer;
+}
+
