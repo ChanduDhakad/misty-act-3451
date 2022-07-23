@@ -2,8 +2,8 @@ import {
   innernav,
   funcDispBlock,
   funcDispNone,
-} from "./InnersiteNav/components/navbarComp.js";
-import foo from "./HomepageNav/Components/footer.js";
+} from "../HeaderNFooter/InnersiteNav/components/navbarComp.js";
+import foo from "../HeaderNFooter/HomepageNav/Components/footer.js";
 
 let nav = document.getElementById("header");
 nav.innerHTML = innernav();
