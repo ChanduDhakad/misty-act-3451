@@ -140,27 +140,27 @@ function header() {
         <div class="list">
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2019/04/Uvula-Swollen-And-Red-267x300.jpg.webp" alt="">
-                <p><a href="health-and-wellness-Artical">Swollen Uvula: Causes, Symptoms, & Remedies</a></p>
+                <p><a href="health-and-wellness-Artical.html">Swollen Uvula: Causes, Symptoms, & Remedies</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Yoga-And-Exercises-To-Relieve-Constipation-1-1-267x300.jpg.webp" alt="">
-                <p><a href="health-and-wellness-Artical">11 Yoga And Exercises To Get Relief From</a></p>
+                <p><a href="health-and-wellness-Artical.html">11 Yoga And Exercises To Get Relief From</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2018/11/Diverticulitis-Symptoms-Causes-And-Treatment-Diet-267x300.jpg.webp" alt="">
-                <p><a href="health-and-wellness-Artical">Diverticulitis: 9 Home Remedies And Natural Treatments</a></p>
+                <p><a href="health-and-wellness-Artical.html">Diverticulitis: 9 Home Remedies And Natural Treatments</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2019/02/How-To-Deal-With-Paranoid-Personality-Disorder-267x300.jpg.webp" alt="">
-                <p><a href="health-and-wellness-Artical">Paranoid Personality Disorder: Causes, Symptoms, And</a></p>
+                <p><a href="health-and-wellness-Artical.html">Paranoid Personality Disorder: Causes, Symptoms, And</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2020/03/Coronavirus-Disease-COVID-19-Symptoms-Prevention-And-Treatment-267x300.jpg.webp" alt="">
-                <p><a href="health-and-wellness-Artical">Coronavirus Disease: Symptoms, Prevention, And</a></p>
+                <p><a href="health-and-wellness-Artical.html">Coronavirus Disease: Symptoms, Prevention, And</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2019/01/Natural-Treatments-To-Manage-The-Symptoms-Of-Shingles-Causes-Symptoms-And-Prevention-Tips-267x300.jpg.webp" alt="">
-                <p><a href="health-and-wellness-Artical">6 Effective Home Remedies & Natural Treatments</a></p>
+                <p><a href="health-and-wellness-Artical.html">6 Effective Home Remedies & Natural Treatments</a></p>
             </div>
         </div>
         <div class="findbtn"><button>Find More</button></div>
@@ -169,27 +169,27 @@ function header() {
         <div class="list">
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/06/How-Henna-Has-Remained-An-Evergreen-Beauty-Ingredient-Through-The-Ages-267x300.jpg.webp" alt="">
-                <p><a href="Celebrity-news-artical">How Henna Has Remained An Evergreen Beauty</a></p>
+                <p><a href="Celebrity-news-artical.html">How Henna Has Remained An Evergreen Beauty</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/06/Why-Do-Most-Women-Trust-Henna-For-Coloring-Hair-Rather-Than-Chemical-Colors-267x300.jpg.webp" alt="">
-                <p><a href="Celebrity-news-artical">Why Do Most Women Trust Henna For Coloring Hair</a></p>
+                <p><a href="Celebrity-news-artical.html">Why Do Most Women Trust Henna For Coloring Hair</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/06/Did-you-know-facial-bleach-has-emerged-as-a-great-alternative-to-threading-and-waxing-facial-hair-267x300.jpg.webp" alt="">
-                <p><a href="Celebrity-news-artical">Facial bleach alternative to waxing facial hair?</a></p>
+                <p><a href="Celebrity-news-artical.html">Facial bleach alternative to waxing facial hair?</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/06/5-Reasons-To-Include-A-Face-Oil-In-Your-Beauty-Regime-267x300.jpg.webp" alt="">
-                <p><a href="Celebrity-news-artical">5 Reasons To Include A Face Oil In Your Beauty Regime</a></p>
+                <p><a href="Celebrity-news-artical.html">5 Reasons To Include A Face Oil In Your Beauty Regime</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/06/How-to-treat-your-skin-after-a-holiday-1-267x300.jpg.webp" alt="">
-                <p><a href="Celebrity-news-artical">How to treat your skin after a holiday</a></p>
+                <p><a href="Celebrity-news-artical.html">How to treat your skin after a holiday</a></p>
             </div>
             <div>
                 <img src="https://cdn2.stylecraze.com/wp-content/uploads/2022/06/Ayurvedic-Herbs-For-Different-Skin-Concerns-267x300.jpg.webp" alt="">
-                <p><a href="Celebrity-news-artical">Ayurvedic Herbs For Different Skin Concerns</a></p>
+                <p><a href="Celebrity-news-artical.html">Ayurvedic Herbs For Different Skin Concerns</a></p>
             </div>
         </div>
         <div class="findbtn"><button>Find More</button></div>
