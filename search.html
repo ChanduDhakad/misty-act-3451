@@ -42,8 +42,8 @@
             align-items: end;
         }
     </style>
-    <link rel="stylesheet" href="./InnersiteNav/components/innerNav.css" />
-    <link rel="stylesheet" href="./HomepageNav/Components/footer.css">
+    <link rel="stylesheet" href="./HeaderNFooter/InnersiteNav/components/innerNav.css" />
+    <link rel="stylesheet" href="./HeaderNFooter/HomepageNav/Components/footer.css">
 </head>
 
 <body>
@@ -58,8 +58,8 @@
 </html>
 <script src="./InnersiteNav/components/innerNav.js"></script>
 <script type="module">
-    import {innernav, funcDispBlock,funcDispNone} from "./InnersiteNav/components/navbarComp.js";
-    import foo from "./HomepageNav/Components/footer.js"
+    import {innernav, funcDispBlock,funcDispNone} from "./HeaderNFooter/InnersiteNav/components/navbarComp.js";
+    import foo from "./HeaderNFooter/HomepageNav/Components/footer.js"
 
     let nav = document.getElementById("header");
     nav.innerHTML = innernav();
