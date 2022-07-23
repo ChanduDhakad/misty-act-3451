@@ -7,9 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="readmore.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Poppins:wght@200;300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/34483ec9ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./products.css">
+    <link rel="stylesheet" href="../HeaderNFooter/InnersiteNav/components/innerNav.css" />
+    <link rel="stylesheet" href="../HeaderNFooter/HomepageNav/Components/footer.css">
 </head>
 
 <body>
+    <div id="header"></div>
     <div id="mainsec">
         <div id="heading">
             <h1>Body Surface Area BSA Calculator For Medicinal Purposes</h1>
@@ -70,10 +81,32 @@
             </li>
         </ol>
     </div>
+    <div id="footer"></div>
 </body>
 
 </html>
-<script>
-    document.getElementById("imperial").addEventListener("click", myfunction)
-    myfunctio
+<script type="module">
+    import {
+        innernav,
+        funcDispBlock,
+        funcDispNone,
+    } from "./HeaderNFooter/InnersiteNav/components/navbarComp.js";
+    import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+
+    let nav = document.getElementById("header");
+    nav.innerHTML = innernav();
+    let footer = document.getElementById("footer");
+    footer.innerHTML = foo();
+
+    let hamburger = document.getElementById("hamburger");
+    let timesClicked = 0;
+
+    hamburger.addEventListener("click", function () {
+        timesClicked++;
+        if (timesClicked % 2 == 0) {
+            funcDispBlock();
+        } else {
+            funcDispNone();
+        }
+    });
 </script>
