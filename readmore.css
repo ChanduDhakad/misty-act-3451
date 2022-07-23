@@ -27,6 +27,13 @@ body {
     width: 100%;
 }
 
+h3 {
+    margin-top: 20px;
+}
+
+/* h3>input[value]{
+    line-height: 20px;
+} */
 #calculate {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 10px 10px;
@@ -47,12 +54,14 @@ button {
     margin-top: 20px;
     margin-left: 70px;
     margin-bottom: 20px;
+    margin-top: 20px;
     border: none;
     font-size: 18px;
     color: black;
 }
 
 :placeholder-shown {
+    margin-top: 20px;
     box-sizing: border-box;
     text-align: end;
     width: 90%;
@@ -128,6 +137,7 @@ h4 {
 
 ol {
     line-height: 27px;
+    margin-bottom: 30px;
 }
 
 .link {
