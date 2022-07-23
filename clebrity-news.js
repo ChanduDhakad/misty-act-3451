@@ -151,3 +151,22 @@ appendfun(Buttom_section_data,buttom_container);
 // Footer section append in footer part
 
 // document.getElementById("footer-Section").innerHTML=footer()
+//redirect function
+
+let redirectfun = (c, loc) => {
+    document.getElementById(c).addEventListener("click", function () {
+      showMakeup();
+    });
+    function showMakeup() {
+      window.location.href = loc;
+    }
+  };
+  redirectfun("cate1", "makeup.html");
+  redirectfun("cate2", "haircare.html");
+  redirectfun("cate3", "skinCare.html");
+  redirectfun("cate4", "https://www.stylecraze.com/articles/hairstyles/");
+  redirectfun("cate5", "health-and-wellness.html");
+  redirectfun("cate6", "Celebrity-news.html");
+  redirectfun("cate7", "aboutus.html");
+  redirectfun("cate8", "products.html");
+  redirectfun("cate9", "tools.html");
