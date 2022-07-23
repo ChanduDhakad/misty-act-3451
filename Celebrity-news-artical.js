@@ -1,12 +1,5 @@
 
 // console.log("dsddtr")
-//APPEND NAVBAR
-
-// export default foo;
-// import foo from "./HeaderNFooter/Components/header.js"
-
-
-// document.getElementById("header").innerHTML=foo()
 
 //apend Data in heading section
 let heading_data=document.getElementById("heading-section");
@@ -15,17 +8,17 @@ let heading_data=document.getElementById("heading-section");
 let heading_data_append=()=>{
     let div = document.createElement("div");
     let heading= document.createElement("h1");
-    heading.innerHTML ="Swollen Uvula: Causes, Symptoms, & 8 Home Remedies To Manage";
+    heading.innerHTML ="21 Minimalist And Small Tattoo Designs With Meanings";
 
     let author= document.createElement("h3");
     // author.setAttribute("class","onhover")
-    author.innerHTML = `"Medically Reviewed by <a id="onhover1" href="https://www.stylecraze.com/dc/dr-zeel-gandhi-ayurvedic-doctor/">Dr. Zeel Gandhi</a> ,BAMS "`
-    let date= document.createElement("h4");
-
-    // author.setAttribute("class","onhover")
-    date.innerHTML =`July 19, 2022 By   <a id="onhover2" href="https://www.stylecraze.com/author/shahen/">Shaheen Naser</a>`
+    author.innerHTML = `" July 20, 2022<a id="onhover1" href="https://www.stylecraze.com/dc/dr-zeel-gandhi-ayurvedic-doctor/"> By Jyotsana Rao</a> ,BAMS "`
+    // let date= document.createElement("h4");
+    // July 20, 2022 By Jyotsana Rao
+    author.setAttribute("class","onhover")
+    // date.innerHTML =`July 19, 2022 By   <a id="onhover2" href="https://www.stylecraze.com/author/shahen/">Shaheen Naser</a>`
     div.append()
-    heading_data.append(heading,author,date)
+    heading_data.append(heading,author)
 }
 heading_data_append();
 
@@ -33,18 +26,18 @@ heading_data_append();
 //Add ON Hover envent in Heading Section
 
 document.getElementById("onhover1").addEventListener("mouseover",fun1)
-document.getElementById("onhover2").addEventListener("mouseover",fun2)
+// document.getElementById("onhover2").addEventListener("mouseover",fun2)
 
 document.getElementById("onhover1").addEventListener("mouseout",function(){
 document.querySelector("#hover-div").setAttribute("id","invisible")
 document.querySelector("#hover-div").setAttribute("id","invisible")
    
 })
-document.getElementById("onhover2").addEventListener("mouseout",function(){
-    document.querySelector("#hover-div").setAttribute("id","invisible")
-    document.querySelector("#hover-div").setAttribute("id","invisible")
+// document.getElementById("onhover2").addEventListener("mouseout",function(){
+//     document.querySelector("#hover-div").setAttribute("id","invisible")
+//     document.querySelector("#hover-div").setAttribute("id","invisible")
        
-    })
+//     })
 
 
 
@@ -58,23 +51,23 @@ div.setAttribute("id","hover-div");
 let div1=document.createElement("div")
 
 let img =document.createElement("img")
-img.setAttribute("src","https://cdn2.stylecraze.com/wp-content/uploads/2020/07/zeelgandhi.jpg")
+img.setAttribute("src","https://cdn2.stylecraze.com/wp-content/uploads/2021/08/jyotsna.jpg.webp")
 div1.append(img)
 
 
 let div2=document.createElement("div")
 let heading1=document.createElement("h3")
-heading1.innerHTML=`<a style="color: #f35b74 href="https://www.stylecraze.com/dc/dr-zeel-gandhi-ayurvedic-doctor/">Dr. Zeel Gandhi</a>`
+heading1.innerHTML=`<a style="color: #f35b74 href="https://www.stylecraze.com/author/jyotsanarao/">Jyotsana Rao</a>`
 
-let heading2=document.createElement("h4")
-heading2.innerHTML=`<span style="color: #f35b74;">Specialty:</span> Panchkarma therapies`
+// let heading2=document.createElement("h4")
+// heading2.innerHTML=`<span style="color: #f35b74;">Specialty:</span> Panchkarma therapies`
 
-div2.append(heading1,heading2)
+div2.append(heading1)
 let div3=document.createElement("div");
 
 div3.append(div1,div2);
 let para=document.createElement("p")
-para.innerHTML=`<p>Dr. Zeel Gandhi is an Ayurvedic doctor and an expert at providing holistic solutions for health problems encompassing Internal medicine, Panchakarma, Yoga, Ayurvedic Nutrition, and formulations. She graduated as a top ranker from Dr. D.Y.Pa...<a href="https://www.stylecraze.com/dc/dr-zeel-gandhi-ayurvedic-doctor/"> more</a></p>`,
+para.innerHTML=`<p>Jyotsana Rao is an engineering graduate from NIT, Nagpur, who discovered her love for writing during her undergraduate days. She is passionate about writing about everything related to beauty - makeup...<a href="https://www.stylecraze.com/dc/dr-zeel-gandhi-ayurvedic-doctor/"> more</a></p>`,
 div.append(div3,para)
 // div.append(div1,para)
 
@@ -84,44 +77,7 @@ heading_data.append(div)
 }
 
 
-// Create a fuction for secound hover div?
 
-
-
-function fun2(){
-  
-
-    let div=document.createElement("div");
-div.setAttribute("id","hover-div");
-let div1=document.createElement("div")
-
-let img =document.createElement("img")
-img.setAttribute("src","https://cdn2.stylecraze.com/static-content/author/shaheen.jpg")
-div1.append(img)
-
-
-let div2=document.createElement("div")
-let heading1=document.createElement("h3")
-heading1.innerHTML=`<a style="color: #f35b74 href="https://www.stylecraze.com/author/shahen/">Shaheen Naser</a>`
-
-let heading2=document.createElement("h4")
-heading2.innerHTML=`<span style="color: #f35b74;">in</span>`
-heading2.setAttribute("src","https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/linkedin-in-r.svg")
-
-div2.append(heading1,heading2)
-let div3=document.createElement("div");
-
-div3.append(div1,div2);
-let para=document.createElement("p")
-para.innerHTML=`<p>Shaheen holds a postgraduate degree in Human Genetics and Molecular Biology. She is a Geneticist with proficiency in Biotechnology, Immunology, Medical Genetics, Biochemistry, Microbiology, and Geneti...<a href="https://www.stylecraze.com/author/shahen/"> more</a></p>`,
-
-div.append(div3,para)
-// div.append(div1,para)
-
-
-heading_data.append(div)
-  
-}
 
 // After  heading div Create a div and append a img and paragraph
 
@@ -135,11 +91,12 @@ let after_heading=()=>{
 
 
 
-let img =document.createElement("img")
-img.setAttribute("src","https://cdn2.stylecraze.com/wp-content/uploads/2019/04/Uvula-Swollen-And-Red.jpg.webp")
+let img =document.createElement("img");
+
+img.setAttribute("src","https://cdn2.stylecraze.com/wp-content/uploads/2013/06/2850-10-Adorable-Small-Tattoo-Ideas-is.jpg.webp")
 
 let para=document.createElement("p")
-para.innerHTML="A constant feeling of having something stuck in your throat may not always indicate strep throat. It can be due to a swollen uvula. The uvula is the fleshy part that hangs down your throat and may sometimes become swollen or inflamed. This may cause continuous discomfort and, at times, may result in a cough. You can check this out in a mirror. Multiple factors may lead to a swollen uvula. Keep reading to know more about this condition, natural remedies, and how they may work to provide relief. Scroll down."
+para.innerHTML="Full-body tattoos with intricate details and big, statement-making designs will never go out of style. However presently, the world is obsessing over small tattoos. These tiny tattoo designs are minimalistic and cute. They not only drive attention to and enhance the body part where they are inked but will also fill you up with a sense of serenity when you look at them. They are the best examples of “Less is more”. The best thing about them is that they are less painful and do not take much space. If you are on the lookout for a classy tiny tattoo, you have come to the right place. We have compiled a list of the most adorable minimalist tattoos ever. Take a look!"
 
 
 div.append(img,para);
@@ -156,15 +113,15 @@ after_heading()
 
 let li_obj=[
 
-    {name:"What Is Uvula"},
-    {name:"Why Is My Uvula Swollen And Red? What Causes It?"},
-    {name:"Risk Factors"},
-    {name:"Signs And Symptoms"},
+    {name:"21 Best Small Tattoos With Meanings"},
+    {name:"Infographic: Post-Pandemic Tattoo Trends"},
+    // {name:"Risk Factors"},
+    // {name:"Signs And Symptoms"},
 
-    {name:"How To Diagnose The Cause Of Uvulitis"},
-    {name:"8 Natural Remedies To Manage Uvulitis"},
-    {name:"How To Prevent A Swollen Uvula"},
-    {name:"References"},
+    // {name:"How To Diagnose The Cause Of Uvulitis"},
+    // {name:"8 Natural Remedies To Manage Uvulitis"},
+    // {name:"How To Prevent A Swollen Uvula"},
+    // {name:"References"},
 ]
 
 // create a function add with a element
@@ -190,8 +147,12 @@ Artical_ans(li_obj);
 
 let Uvula_obj={
 
-    head:"What Is Uvula?",
-    para1:"The roof of the mouth is divided into two parts: (i) the hard palate, which can be felt right above your tongue, and (ii) the soft palate, which is located behind the hard palate, forming the beginning of your throat. The fleshy part that hangs down the soft palate is the uvula.",
+    head:"21 Best Small Tattoos With Meanings",
+    head2:"1. Heart Tattoo",
+    img1:"https://cdn2.stylecraze.com/wp-content/uploads/2013/06/Heart-Tattoo-1.jpg.webp",
+    img2:"https://cdn2.stylecraze.com/wp-content/uploads/2013/06/Heart-Tattoo1.jpg.webp",
+    para1:"The heart represents love, romance, memory, trust, hope, and stability. This small heartbeat tattoo will remind you of the things that make you feel loved because a grateful heart is a magnet for miracles. It looks classy, elegant, and neat.",
+    // add
    para2:"While the soft palate helps to close your nasal passages as you swallow your food, the uvula helps to push food down your throat. The uvula is made of connective and muscle tissues along with mucous membranes that make it very flexible.",
    para3:"Although rare, in some cases, your uvula, as well as its surrounding areas, may become swollen and inflamed. This condition is referred to as uvulitis.",
    para4:"Inflammatory reactions within the body are often the major cause of a swollen uvula. Let us look at what causes reactions that can trigger uvulitis.",
@@ -209,22 +170,27 @@ let Uvula=(ans)=>{
 let div1=document.createElement("div")
 
 let headline=document.createElement("h1")
+let sub_heading=document.createElement("h2")
+let ad_heading=document.createElement("h2");
+
+let img1 =document.createElement("img")
+img1.setAttribute("src",ans.img1);
+let img2 =document.createElement("img")
+img2.setAttribute("src",ans.img2);
+
+
+ad_heading.innerHTML="Avertisement"
 headline.innerText=ans.head;
-let iframe=document.createElement("iframe");
-iframe.setAttribute("src","https://www.youtube.com/");
-
-
 
 let p1=document.createElement("p")
 p1.innerHTML=ans.para1
-let p2=document.createElement("p")
-p2.innerHTML=ans.para2
-let p3=document.createElement("p")
-p3.innerHTML=ans.para3
-let p4=document.createElement("p")
-p4.innerHTML=ans.para4
+let iframe=document.createElement("iframe");
+iframe.setAttribute("src","https://www.youtube.com/");
+{/* <h2>Avertisement</h2> */}
 
-div1.append(headline,p1,iframe,p2,p3,p4)
+
+
+div1.append(headline,sub_heading,img1,img2,p1,ad_heading,iframe)
 container_ans.append(div1)
 }
 
@@ -273,7 +239,7 @@ let p1=document.createElement("p")
 p1.innerHTML=ans.para1
 let iframe1=document.createElement("iframe");
 iframe1.style.backgroundClip
-iframe1.setAttribute("src","https://www.youtube.com/");
+iframe1.setAttribute("src","https://cdn.unibots.in/yoga_short.mp4");
 // iframe1.setAttribute("")
 
 
@@ -310,7 +276,7 @@ l3.innerHTML=ans.para6
 
 let p7=document.createElement("p")
 p7.innerHTML=ans.para7;
-div1.append(p3,l1,l2,l3,p7)
+div1.append(p3,l1)
 container1_ans.append(div1)
 
 }
@@ -350,6 +316,10 @@ let obj_ads_img=[
     url:"https://tpc.googlesyndication.com/simgad/4145000121580609200?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlr2WtfijIZNgjxCqjHTHSQmdTjQA",
 },
 
+{
+    url:"https://tpc.googlesyndication.com/simgad/13156906287205413860?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qlxRqIKqN6-IRAcFFEvVptGEdEYiA",
+
+},
 ]
 
 
@@ -411,20 +381,20 @@ let apppend_img1=setTimeout(function(){
 // Right SIde Catergory
 
 let popur_cat_obj=[
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/03/Coronavirus-Disease-COVID-19-Symptoms-Prevention-And-Treatment-340x255.jpg",
-para:"Coronavirus Disease: Symptoms, Prevention, And ...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/02/41-Triangle-Tattoos-For-Women-That-Are-Super-Inspiring-340x255.jpg.webp",
+para:"41 Triangle Tattoos For Women That Are Super In...",
 url:"https://www.stylecraze.com/articles/coronavirus-infection-symptoms-causes-precautions/",
 },
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/03/Debunking-Myths-About-Coronavirus-340x255.jpg",
-para:"Debunking Coronavirus Myths – Facts To Se...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/02/40-Beautiful-Semicolon-Tattoo-Designs-And-Their-Meanings-340x255.jpg.webp",
+para:"40 Beautiful Semicolon Tattoo Designs And Their...",
 url:"https://www.stylecraze.com/articles/debunking-coronavirus-myths/",
 },
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2019/02/How-To-Deal-With-Paranoid-Personality-Disorder-340x255.jpg.webp",
-para:"Paranoid Personality Disorder: Causes, Symptoms...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/02/Top-21-Tree-Of-Life-Tattoo-Designs-With-Their-Interpretations-340x255.jpg.webp",
+para:"21 Tree Of Life Tattoo Designs With Their Inter...",
 url:"https://www.stylecraze.com/articles/how-to-deal-with-paranoid-personality-disorder/",
 },
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2019/01/Natural-Treatments-To-Manage-The-Symptoms-Of-Shingles-Causes-Symptoms-And-Prevention-Tips-340x255.jpg.webp",
-para:"6 Effective Home Remedies & Natural Treatm...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2019/12/30-Top-Design-Ideas-For-Couple-King-And-Queen-Tattoos-340x255.jpg.webp",
+para:"30 Top Design Ideas For Couple King And Queen T...",
 url:"https://www.stylecraze.com/articles/treatment-for-shingles/",
 },
 // ddff
@@ -432,20 +402,20 @@ url:"https://www.stylecraze.com/articles/treatment-for-shingles/",
 
 
 let articals_obj=[
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2019/04/Uvula-Swollen-And-Red-85x60.jpg.webp",
-para:"Swollen Uvula: Causes, Symptoms, & 8 Home...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/02/Top-21-Tree-Of-Life-Tattoo-Designs-With-Their-Interpretations-340x255.jpg.webp",
+para:"Top 30 Name Tattoo Designs To Honor Your ...",
 url:"https://www.stylecraze.com/articles/swollen-uvula-causes-remedies/",
 },
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/03/Coronavirus-Disease-COVID-19-Symptoms-Prevention-And-Treatment-85x60.jpg.webp",
-para:"Coronavirus Disease: Symptoms, Prevention...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2013/11/3-Most-Popular-Katy-Perry%E2%80%99s-Tattoos-And-Their-Meanings-85x60.jpg.webp",
+para:"Katy Perry's 10 Popular Tattoos And Their...",
 url:"https://www.stylecraze.com/articles/coronavirus-infection-symptoms-causes-precautions/",
 },
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2020/03/Debunking-Myths-About-Coronavirus-85x60.jpg.webp",
-para:"Debunking Coronavirus Myths - Facts To Se...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2013/10/25-Meaningful-Hawaiian-Tattoo-Designs-To-Try-In-2019-1-85x60.jpg.webp",
+para:"25 Meaningful Hawaiian Tattoo Designs To ...",
 url:"https://www.stylecraze.com/articles/debunking-coronavirus-myths/",
 },
-{img:"https://cdn2.stylecraze.com/wp-content/uploads/2018/11/Diverticulitis-Symptoms-Causes-And-Treatment-Diet-85x60.jpg.webp",
-para:"Diverticulitis: 9 Home Remedies And Natur...",
+{img:"https://cdn2.stylecraze.com/wp-content/uploads/2013/11/22-Best-Lady-Gaga-Tattoos-With-Their-Special-Meanings-85x60.jpg.webp",
+para:"22 Best Lady Gaga Tattoos And Their Speci...",
 },
 {img:"https://cdn2.stylecraze.com/wp-content/uploads/2019/02/How-To-Deal-With-Paranoid-Personality-Disorder-85x60.jpg.webp",
 para:"Paranoid Personality Disorder: Causes, Sy...",
