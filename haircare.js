@@ -1,4 +1,8 @@
 
+import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+
+document.getElementById("footer").innerHTML=foo();
+
 document.getElementById("img2").addEventListener("click",handle2);
 function handle2(){
     window.location.href="./hairinner.html";

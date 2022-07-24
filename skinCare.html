@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skin Care</title>
-    <link rel="stylesheet" href="./Footer/footer.css">
+    <link rel="stylesheet" href="./HeaderNFooter/HomepageNav/Components/footer.css">
+    <script
+      src="https://kit.fontawesome.com/34483ec9ab.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
          #footer{
             margin-top: -500px;
@@ -259,105 +263,14 @@ a{
       <div id="bottom_div_2"></div>
   
       <div id="footer">
-        <div id="footerDiv">
-            <div>
-              <a href="https://www.stylecraze.com/about-us/">About Us</a>
-              <a href="https://www.stylecraze.com/image-usage-policy/"
-                >Image Usage Policy</a
-              >
-              <a href="https://www.stylecraze.com/contact-us/"> Contact us</a>
-              <a href="https://www.stylecraze.com/editorial-guidelines/"
-                >Editorial Guideliness</a
-              >
-              <a href="https://www.stylecraze.com/doctors-join/"
-                >Join Our Medical Board</a
-              >
-              <a href="https://www.stylecraze.com/doctors-join/">Press Room</a>
-            </div>
-            <div>
-              <a href="https://www.stylecraze.com/advertise-with-us/"
-                >Advertise With Us</a
-              >
-              <a href="https://www.stylecraze.com/privacy-policy/"
-                >Privacy Policy</a
-              >
-              <a href="https://www.stylecraze.com/terms-of-use/">Term Of Use</a>
-              <a href="https://www.stylecraze.com/affiliate-disclosure/"
-                >Affiliate Discloure</a
-              >
-              <a href="https://www.stylecraze.com/cookie-policy/">Cookie Policy</a>
-              <a href="https://www.stylecraze.com/manage-subscriptions/?ref=footer"
-                >Manage Sbscription</a
-              >
-            </div>
-            <div>
-              <div>
-                <h4>Follow Us</h4>
-              </div>
-    
-              <div>
-                <a href="https://www.facebook.com/StyleCraze/" target="_blank">
-                  <img
-                    src="https://thumbs.dreamstime.com/b/afbeelding-met-hoge-resolutie-van-zwart-wit-facebook-pictogram-voor-web-en-afdrukdoeleinden-logo-zwarte-witte-achtergrond-170263984.jpg"
-                  />
-                </a>
-                <a href="https://in.pinterest.com/stylecraze/" target="_blank">
-                  <img
-                    src="https://png.pngtree.com/element_our/md/20180626/md_5b321fcda2483.jpg"
-                  />
-                </a>
-                <a href="https://twitter.com/stylecrazeindia/" target="_blank">
-                  <img
-                    src="https://toppng.com/uploads/preview/twitter-icon-black-1154999496507pavdk1xp.png"
-                  />
-                </a>
-                <a href="https://www.instagram.com/style.craze/" target="_blank">
-                  <img
-                    src="https://toppng.com/uploads/preview/new-black-instagram-logo-2020-11609370162ayxbdxlffo.png"
-                  />
-                </a>
-    
-                <a href="https://www.youtube.com/user/StylecrazeTV" target="_blank">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1zmKt_j4VUbGiSpQ7kQ658lLxIyaYL-4TpwxzV69t6zkXbDpXpEKhp4MPW0xi0Wl_2As&usqp=CAU"
-                  />
-                </a>
-              </div>
-            </div>
-            <div>
-              <a>Our Sister Sites</a>
-              <a href="https://www.momjunction.com/">Mom Junction</a>
-              <a href="https://www.thebridalbox.com/">The Bridal Box</a>
-              <a href="https://skinkraft.com/">SkinCraft</a>
-              <a href="https://vedix.com/">Vedix</a>
-            </div>
-          </div>
-          <div id="Copyright">
-            <div id="rights">
-              <p>
-                Copyright © 2011 - 2022
-                <a href="https://www.incnut.com/"
-                  >IncNut Stylecraze Private Limited.</a
-                >
-                All rights reserved.
-              </p>
-            </div>
-            <div id="desc">
-              <p>
-                StyleCraze provides content of general nature that is designed for
-                informational purposes only. The content is not intended to be a
-                substitute for professional medical advice, diagnosis, or treatment.
-                <a href="https://www.stylecraze.com/disclaimer/">
-                  Click here for additional information.
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
+         
       </div>
 </body>
 </html>
-<script>
+<script type="module">
+  import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+
+document.getElementById("footer").innerHTML=foo();
     
     
     document.getElementById("img3").addEventListener("click",handle3);
