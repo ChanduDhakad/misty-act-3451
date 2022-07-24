@@ -1,4 +1,26 @@
-
+import {
+    innernav,
+    funcDispBlock,
+    funcDispNone,
+  } from "./HeaderNFooter/InnersiteNav/components/navbarComp.js";
+  import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+  
+  let nav = document.getElementById("header");
+  nav.innerHTML = innernav();
+  let footer = document.getElementById("footer");
+  footer.innerHTML = foo();
+  
+  let hamburger = document.getElementById("hamburger");
+  let timesClicked = 0;
+  
+  hamburger.addEventListener("click", function () {
+    timesClicked++;
+    if (timesClicked % 2 == 0) {
+      funcDispBlock();
+    } else {
+      funcDispNone();
+    }
+  });
 // console.log("dsddtr")
 
 //apend Data in heading section

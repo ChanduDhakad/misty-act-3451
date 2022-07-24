@@ -1,4 +1,37 @@
 // Create Obj Of Array For News category paragraph
+
+//append footer and navbar
+
+import {
+    innernav,
+    funcDispBlock,
+    funcDispNone,
+  } from "./HeaderNFooter/InnersiteNav/components/navbarComp.js";
+  import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+  
+  let nav = document.getElementById("header");
+  nav.innerHTML = innernav();
+  let footer = document.getElementById("footer");
+  footer.innerHTML = foo();
+  
+  let hamburger = document.getElementById("hamburger");
+  let timesClicked = 0;
+  
+  hamburger.addEventListener("click", function () {
+    timesClicked++;
+    if (timesClicked % 2 == 0) {
+      funcDispBlock();
+    } else {
+      funcDispNone();
+    }
+  });
+
+
+
+
+
+
+
 let new_category_para = [
     ["Brand News "],
     ["Inspiration "],
@@ -145,7 +178,12 @@ let buttom_container=document.getElementById("buttom-section")
 appendfun(Buttom_section_data,buttom_container);
 
 
-//Import footer function from footer.js file
+
+
+document.getElementById("onclick-img").addEventListener("click",nextpage)
+function nextpage(){
+   window.location.href="Celebrity-news-Artical.html"
+}
 
 // import footer from "../Footer/footer.js";
 // Footer section append in footer part
@@ -170,3 +208,4 @@ let redirectfun = (c, loc) => {
   redirectfun("cate7", "aboutus.html");
   redirectfun("cate8", "products.html");
   redirectfun("cate9", "tools.html");
+
