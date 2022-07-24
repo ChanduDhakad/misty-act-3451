@@ -20,10 +20,12 @@ img:hover {
   display: flex;
   text-align: center;
   justify-content: center;
+  margin-top: 40px;
 }
 .boxlogo {
   display: grid;
-  height: 100px;
+  height: 60px;
+  justify-content: normal;
   width: 240px;
 }
 .boxlogo h2 {
@@ -301,4 +303,3 @@ img:hover {
 button {
   cursor: pointer;
 }
-
