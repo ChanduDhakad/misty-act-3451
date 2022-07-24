@@ -116,4 +116,21 @@
             funcDispNone();
         }
     });
+    let loc = document.querySelectorAll(".card");
+loc.forEach((ele) => {
+  ele.addEventListener("click", redire);
+});
+
+function redire(ele) {
+  let parent = ele.target.parentElement;
+  let child = parent.children[1].innerText;
+  console.log(child);
+  if (child == "Skin") {
+    window.location.href = "skin.html";
+  } else if (child == "Hair Styles") {
+    window.location.href = "hairStyle.html";
+  } else if (child == "Face Makeup") {
+    window.location.href = "faceMakeup.html";
+  }
+}
 </script>
