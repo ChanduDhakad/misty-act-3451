@@ -16,5 +16,5 @@ let appendfun= function(data,container){
     })
 }
 
-console.log(appendfun)
+// console.log(appendfun)
 export default appendfun

@@ -1,6 +1,28 @@
 // Create Obj Of Array For health category paragraph
 //navbar append function
-import foo from "./HeaderNFooter/Components/header.js"
+import {
+    innernav,
+    funcDispBlock,
+    funcDispNone,
+  } from "./HeaderNFooter/InnersiteNav/components/navbarComp.js";
+  import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+  
+  let nav = document.getElementById("header");
+  nav.innerHTML = innernav();
+  let footer = document.getElementById("footer");
+  footer.innerHTML = foo();
+  
+  let hamburger = document.getElementById("hamburger");
+  let timesClicked = 0;
+  
+  hamburger.addEventListener("click", function () {
+    timesClicked++;
+    if (timesClicked % 2 == 0) {
+      funcDispBlock();
+    } else {
+      funcDispNone();
+    }
+  });
 
 
 
@@ -13,23 +35,6 @@ import foo from "./HeaderNFooter/Components/header.js"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.getElementById("header").innerHTML=foo()
 
 
 
@@ -182,3 +187,10 @@ let buttom_container=document.getElementById("buttom-section")
 appendfun(Buttom_section_data,buttom_container);
 
 
+//
+
+
+document.getElementById("onclick-img").addEventListener("click",nextpage)
+function nextpage(){
+   window.location.href="health-and-wellness-Artical.html"
+}

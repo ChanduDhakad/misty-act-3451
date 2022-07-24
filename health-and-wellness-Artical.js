@@ -1,14 +1,32 @@
 
-// console.log("dsddtr")
-//APPEND NAVBAR
-
-// export default foo;
-// import foo from "./HeaderNFooter/Components/header.js"
-
-
-// document.getElementById("header").innerHTML=foo()
 
 //apend Data in heading section
+import {
+    innernav,
+    funcDispBlock,
+    funcDispNone,
+  } from "./HeaderNFooter/InnersiteNav/components/navbarComp.js";
+  import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
+  
+  let nav = document.getElementById("header");
+  nav.innerHTML = innernav();
+  let footer = document.getElementById("footer");
+  footer.innerHTML = foo();
+  
+  let hamburger = document.getElementById("hamburger");
+  let timesClicked = 0;
+  
+  hamburger.addEventListener("click", function () {
+    timesClicked++;
+    if (timesClicked % 2 == 0) {
+      funcDispBlock();
+    } else {
+      funcDispNone();
+    }
+  });
+
+  
+
 let heading_data=document.getElementById("heading-section");
 
 
@@ -55,7 +73,7 @@ function fun1(){
 
     let div=document.createElement("div");
 div.setAttribute("id","hover-div");
-let div1=document.createElement("div")
+let div1=document.createElement("div");
 
 let img =document.createElement("img")
 img.setAttribute("src","https://cdn2.stylecraze.com/wp-content/uploads/2020/07/zeelgandhi.jpg")
