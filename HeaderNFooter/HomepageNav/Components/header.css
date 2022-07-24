@@ -124,9 +124,13 @@
   margin-top: -350px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-#box7 > div:hover {
+#box7 > div > a:hover {
   color: #fe5c75;
   cursor: pointer;
+}
+#box7 a{
+  text-decoration: none;
+  color: rgb(86, 83, 83);
 }
 .list {
   display: flex;

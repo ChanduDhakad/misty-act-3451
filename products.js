@@ -2,8 +2,8 @@ import {
   innernav,
   funcDispBlock,
   funcDispNone,
-} from "../HeaderNFooter/InnersiteNav/components/navbarComp.js";
-import foo from "../HeaderNFooter/HomepageNav/Components/footer.js";
+} from "./HeaderNFooter/InnersiteNav/components/navbarComp.js";
+import foo from "./HeaderNFooter/HomepageNav/Components/footer.js";
 
 let nav = document.getElementById("header");
 nav.innerHTML = innernav();
@@ -393,3 +393,23 @@ function redire(ele) {
     window.location.href = "faceMakeup.html";
   }
 }
+
+//redirect function
+
+let redirectfun = (c, loc) => {
+  document.getElementById(c).addEventListener("click", function () {
+    showMakeup();
+  });
+  function showMakeup() {
+    window.location.href = loc;
+  }
+};
+redirectfun("cate1", "makeup.html");
+redirectfun("cate2", "haircare.html");
+redirectfun("cate3", "skincare.html");
+redirectfun("cate4", "hairstyles.html");
+redirectfun("cate5", "health.html");
+redirectfun("cate6", "Celebrity-news.html");
+redirectfun("cate7", "aboutus.html");
+redirectfun("cate8", "products.html");
+redirectfun("cate9", "tools.html");
