@@ -17,12 +17,12 @@ StyleCraze.com Clone is a project that replicates the functionalities of the Sty
 - Product Categories
 - Beauty Tips
 
-# Tech Stack
+## Tech Stack
 - JavaScript
 - HTML
 - CSS
 - 
-#Installation
+# Installation
 - To get started with the project, follow these steps:
 
 # Clone the project repository.
@@ -33,12 +33,12 @@ StyleCraze.com Clone is a project that replicates the functionalities of the Sty
 - If you encounter any issues while running the project, please feel free to contact us for assistance.
 
 # Contributors
-* [@Durgashankar](https://github.com/Durgashankar001)
-* [@Danish](https://github.com/danishpinjari40)
-* [@Ritesh](https://github.com/skypassboy)
-* [@Acnchita](https://github.com/sanchita-2022)
-* [@Pravingunjal](https://github.com/Pravingunjal1)
-* [@Chandu](https://github.com/ChanduDhakad)
+* [@Gouseimmu](https://github.com/gouseimmu)
+*  [@Chandu](https://github.com/ChanduDhakad)
+* * [@Mehakkumari](https://github.com/Mehakkumari)
+* [@Ninadjoshi](https://github.com/Ninadjoshi212)
+* [@Ashishmonga](https://github.com/Ashishmonga00)
+*
 
 
 # License
