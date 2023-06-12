@@ -29,15 +29,16 @@ StyleCraze.com Clone is a project that replicates the functionalities of the Sty
 - Navigate to the project directory using the command line.
 - Run the project locally by opening the index.html file in a web browser.
 
-# Help
+# # Help
 - If you encounter any issues while running the project, please feel free to contact us for assistance.
 
 # Contributors
-@Durgashankar
-@Danish
-@Ritesh
-@Acnchita
-@Pravingunjal
+* [@Durgashankar](https://github.com/Durgashankar001)
+* [@Danish](https://github.com/danishpinjari40)
+* [@Ritesh](https://github.com/skypassboy)
+* [@Acnchita](https://github.com/sanchita-2022)
+* [@Pravingunjal](https://github.com/Pravingunjal1)
+* [@Chandu](https://github.com/ChanduDhakad)
 
 
 # License
