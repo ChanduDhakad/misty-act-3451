@@ -34,11 +34,11 @@ StyleCraze.com Clone is a project that replicates the functionalities of the Sty
 
 # Contributors
 * [@Gouseimmu](https://github.com/gouseimmu)
-*  [@Chandu](https://github.com/ChanduDhakad)
-* * [@Mehakkumari](https://github.com/Mehakkumari)
+* [@Chandu](https://github.com/ChanduDhakad)
+* [@Mehakkumari](https://github.com/Mehakkumari)
 * [@Ninadjoshi](https://github.com/Ninadjoshi212)
 * [@Ashishmonga](https://github.com/Ashishmonga00)
-*
+
 
 
 # License
